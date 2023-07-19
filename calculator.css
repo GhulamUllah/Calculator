@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+body{
+    background-image: linear-gradient(45deg,pink,hotpink);
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    width: 290px;
+    border: 2px solid rgba(232, 13, 122,.3);
+    padding: 20px;
+    border-radius: 10px;
+}
+.calculator input{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    text-align: right;
+    background: transparent;
+    font-size: 25px;
+    color: #fff;
+    box-shadow: 0px 2px 15px rgb(228, 143, 157);
+    margin-bottom: 10px;
+}
+.calculator input::placeholder{
+    color: #fff;
+}
+
+
+.calculator button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    margin: 4px;
+    background-color: transparent;
+    font-size: 22px;
+    box-shadow: 0px 3px 15px rgb(228, 143, 157);
+}
